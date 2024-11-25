@@ -83,6 +83,7 @@ CSS STRUCTURE:
 
 @media (max-width: 480px) {
   #fondo {
+    background-image: url("https://i.pinimg.com/736x/c8/48/b0/c848b0b0c06c3f9e858b0af6580a1e72.jpg");
     background-size: contain;
     background-position: center;
     height: 50vh;
@@ -91,6 +92,7 @@ CSS STRUCTURE:
 
 @media (max-width: 615px) {
   #fondo {
+    background-image: url("https://i.pinimg.com/736x/c8/48/b0/c848b0b0c06c3f9e858b0af6580a1e72.jpg");
     background-size: cover;
     background-position: center;
     min-height: auto;
