@@ -60,6 +60,7 @@ CSS STRUCTURE:
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -69,6 +70,8 @@ CSS STRUCTURE:
   justify-content: flex-start;
   color: #fff;
   width: 100%;
+  flex-direction: column;
+  justify-content: center; 
 }
 @media (max-width: 768px) {
   #fondo {
@@ -85,6 +88,21 @@ CSS STRUCTURE:
     height: 50vh;
   }
 }
+
+@media (max-width: 615px) {
+  #fondo {
+    background-size: cover;
+    background-position: center;
+    min-height: auto;
+    padding: 0;
+  }
+
+  .contenido-historia {
+    margin: 0;
+    padding: 10px;
+  }
+}
+
 #barra {
   background-color: #ffffff;
   padding: 20px;
